@@ -1,11 +1,18 @@
 ---
 layout: project
 title: Nutcracker Design
-description: Statics and Mechanics of Materials Design Project
+description: Statics and Mechanics of Solids Design Project
 image: /assets/images/radio-machine-cad.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+In my statics class, I was asked to design a simple lever nutcracker for macadamia nuts. 
+
+Part a: Draw a figure of the nutcracker with the nut when it's about to crack. 
+Find: The necessary nutcracker dimensions
+Given: 
+1. Average macadamia nut diameter = 2cm (World Macadamia Organisation. (2024, October 17). Macadamia Style Guide | World Macadamia Organisation. https://www.worldmacadamia.com/style-guide/)
+2. Average grip strength = 450N (Tomkinson et al. (2024). International norms for adult handgrip strength: A systematic review of data on 2.4 million adults aged 20 to 100+ years from 69 countries and regions. Journal of Sport and Health Science/Journal of Sport and Health Science, 14, 101014. https://doi.org/10.1016/j.jshs.2024.101014)
+3. Average load required to crack a macadamia nut = 2200N (Schrauf et al. Do capuchin monkeys use weight to select hammer tools, Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2)
 
 Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
