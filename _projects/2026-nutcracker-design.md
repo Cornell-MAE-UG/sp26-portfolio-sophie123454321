@@ -2,12 +2,11 @@
 layout: project
 title: Nutcracker Design
 description: Statics and Mechanics of Solids Design Project
-image: /assets/images/radio-machine-cad.jpg
 ---
 
 In my statics class, I was asked to design a simple lever nutcracker for macadamia nuts. 
 
-Part a: Draw a figure of the nutcracker with the nut when it's about to crack. 
+Problem: Draw a figure of the nutcracker with the nut when it's about to crack. 
 
 Find: The necessary nutcracker dimensions
 
@@ -16,10 +15,25 @@ Given:
 2. Average grip strength = 450N (Tomkinson et al. (2024). International norms for adult handgrip strength: A systematic review of data on 2.4 million adults aged 20 to 100+ years from 69 countries and regions. Journal of Sport and Health Science/Journal of Sport and Health Science, 14, 101014. https://doi.org/10.1016/j.jshs.2024.101014)
 3. Average load required to crack a macadamia nut = 2200N (Schrauf et al. Do capuchin monkeys use weight to select hammer tools, Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2)
 
-![Nutcracker with macadamia nut]({{ "/assets/images/nucracker-and-nut.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Nutcracker with macadamia nut]({{ "/assets/images/overall-nutcracker-FBD.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 My Approach:
-The nutcracker will hinge on one end. I assumed that the part that holds the nut in place makes negligible impact on the final mechanical advantage of the system, so I ignored such protruding structures in the following calculations:
+The nutcracker will hinge on one end. I assumed that the part that holds the nut in place makes negligible impact on the final mechanical advantage of the system, so I ignored such protruding structures in the following calculations. 
+
+Exploded FBD Calculations:
+![Nutcracker with macadamia nut]({{ "/assets/images/exploded-nutcracker-FBD.png" | relative_url }}){: .inline-image-r style="width: 400px"}
+
+F nut = 2200N
+
+F hand = 450N
+
+∑MA = 0 = -L1 * F nut + L2 * F hand
+
+450 L2 = 2200 L1
+
+L2 / L1 = 4.9
+
+
 
 
 
