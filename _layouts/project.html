@@ -4,7 +4,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+<div class="project-image-container">
+<img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" />
+</div>
 
 {{ content }}
 
@@ -13,3 +15,5 @@ layout: default
 <a href={{ "/projects/" | relative_url }} class="back-arrow">
     <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
 </a>
+
+

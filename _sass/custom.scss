@@ -102,10 +102,10 @@ footer {
 }
 
 .project-image {
-  float: left;
+  float: none;
+  display: block;
   margin: 20px 25px 25px 0;
   max-width: 200px;
-  vertical-align: top;
 }
 
 .inline-image {
