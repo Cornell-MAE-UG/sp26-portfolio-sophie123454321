@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Sophie Di
 description              : Sophie Di - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/sp26-portfolio-sophie123454321/" # repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
