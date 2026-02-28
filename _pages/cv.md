@@ -1,14 +1,14 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Sophie Di - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/resume.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [szd5@cornell.edu](mailto:szd5@cornell.edu) | | | **Phone:** (425) 260-5561
 
 ---
 
@@ -20,18 +20,18 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 4.08/4.30 | Graduation: December, 2028
 
-- **[High School Name]**  
+- **Liberty High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: June, 2025
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Software:** Autodesk Fusion 360, VS Code, Adobe Photoshop, Microsoft Excel, Bambu Studio  
+- **Programming:** Python, Java, MATLAB  
+- **Tools:** 3D Printing  
 
 ---
 
