@@ -95,33 +95,51 @@ Analysis:
 - Nut_y = F_Nut * cos(π/6) = <b>1905 N</b>
 - ∑F = 0 = R_y + F_Actuator - F_Nut -> R_y = <b>1212 N</b>
 
-3) Slice FBD into smaller sections, 0<x<2 and 2<x<5.5 cm
+3) Slice FBD into smaller sections, 0≤x≤2 and 2≤x≤5.5 cm
 
-4) Calculate internal V, M at 0<x<2 cm, then calculate y_1(x)
-- 1212 N - V = 0 -> <b>V = 1212 N</b>, -1212x + M = 0 -> <b>M = 1212x N-cm</b>
+4) Calculate internal V, M at 0≤x≤2 cm, then calculate y_1(x)
+- 1212 N - V = 0 -> <b>V = 1212 N</b>
+- -1212x + M = 0 -> <b>M = 1212x N-cm</b>
 - EIy'' = M(x)dx
 - Integrate twice to get EIy_1 = 202.1x^3 + Ax + B
 
-5) Calculate internal V, M at 2<x<5.5, then calculate y_2(x)
-- -V + 1212 - 1905 = 0 -> <b>V = -692.8 N</b>, M + (x-2)(1905) - 1212x = 0 -> <b>M = -692.8x + 3811 N-cm</b>
+5) Calculate internal V, M at 2≤x≤5.5, then calculate y_2(x)
+- -V + 1212 - 1905 = 0 -> <b>V = -692.8 N</b>
+- M + (x-2)(1905) - 1212x = 0 -> <b>M = -692.8x + 3811 N-cm</b>
 - Integrate twice to get EIy_2 = -115.5x^3 + 1905x^2 + Cx + D
 
 6) Use boundary conditions y_1(0) = 0, y_2(5.5) = 0, y_1(2) = y_2(2), y_1'(2) = y_2'(2) to solve for constants A, B, C, D
 
 Final answers for y(x):
 
-<b>EIy_1(x) = 202.1x^3 - 3637x</b>, 0<x<2 cm
-<b>EIy_2(x) = -115.5x^3 + 1905x^2 - 7448x + 2540</b>, 2<x<5.5 cm
+<b>EIy_1(x) = 202.1x^3 - 3637x</b>, 0≤x≤2 cm
+
+<b>EIy_2(x) = -115.5x^3 + 1905x^2 - 7448x + 2540</b>, 2≤x≤5.5 cm
+
+![Beam deflection diagram]({{ "/assets/images/nutcracker-y-graph.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
 7) The maximum deflection occurs at <b>x = 2.54 cm</b>
-- At this point EI*y_2(2.54) = -5972 N-cm^3
-
+- At this point EI*y_2(2.54) = -5980 N-cm^3
 
 ---
 
 ## Handle Cross-Section and Material Design
 
 Problem: Choose a cross-section design and material such that the vertical elastic deflection is less than 2% of the beam's length, and is as mass-efficient as possible.
+
+Analysis:
+
+1) y_max ≤ 0.02 * 5.5 = 0.11 cm
+
+2) y_max = -5980 / EI ≤ 0.11 cm
+- <b>E*I ≥ 5.436 N-m^2</b>
+
+3) Aluminum is used for the handles, as it has a decently high elastic modulus of <b>E = 69 GPa</b> for its light weight.
+
+4) An I-beam design is used to achieve a mass-efficient design, as the goal is to resist bending by placing material as far from the neutral axis as possible.
+- I = th^3/12 + bt^3/6 + bt/2 * (h+t)^2
+- I ≥ 5.436 / (69 * 10^9) = 7.88 * 10^-11 m^4
+- 
 
 
 
