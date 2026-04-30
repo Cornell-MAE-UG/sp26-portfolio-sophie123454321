@@ -72,7 +72,30 @@ F actuator = 8000N
 
 If an 800N linear actuator was attached to both ends, the design can be made much smaller, although L2 can't dip below 4.7cm under the same restriction of a 60-degree angle.
 
-Final handle length = 4.7cm / cos(π/6) = <b>5.5cm </b>
+Final handle length = 4.7cm / cos(π/6) =<b> 5.5cm </b>
+
+---
+
+## Handle Bending Analysis
+
+Problem: Find the location of maximum elastic deflection of the handles.
+
+Assumptions:
+
+- Handles are experiencing pure bending
+- Handles are prismatic
+- Handle material is isotropic
+
+Analysis:
+
+
+---
+
+## Handle Cross-Section and Material Design
+
+Problem: Choose a cross-section design and material such that the vertical elastic deflection is less than 2% of the beam's length, and is as mass-efficient as possible.
+
+
 
 ---
 
