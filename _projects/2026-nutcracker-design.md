@@ -72,6 +72,8 @@ F actuator = 8000N
 
 If an 800N linear actuator was attached to both ends, the design can be made much smaller, although L2 can't dip below 4.7cm under the same restriction of a 60-degree angle.
 
+Final handle length = 4.7cm / cos(π/6) = <b>5.5cm </b>
+
 ---
 
 ## Citations
