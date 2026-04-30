@@ -91,11 +91,17 @@ Analysis:
 1) Draw overall FBD
 
 2) Calculate transverse loads and reactions
-- Actuator_y = F_Actuator * cos(π/6) = 800 * cos(π/6) = 692.8 N
-- Nut_y = F_Nut * cos(π/6) = 1905 N
-- ∑F = 0 = R_y + F_Actuator - F_Nut -> R_y = 1212 N
+- Actuator_y = F_Actuator * cos(π/6) = 800 * cos(π/6) = <b>692.8 N</b>
+- Nut_y = F_Nut * cos(π/6) = <b>1905 N</b>
+- ∑F = 0 = R_y + F_Actuator - F_Nut -> R_y = <b>1212 N</b>
 
 3) Slice FBD into smaller sections, 0<x<2 and 2<x<5.5 cm
+
+4) Calculate internal V, M at those slices
+- At 0<x<2 cm: 1212 N - V = 0 -> <b>V = 1212 N</b>, -1212x + M = 0 -> <b>M = 1212x N-cm</b>
+- At 2<x<5.5 cm: -V + 1212 - 1905 = 0 -> <b>V = -692.8 N</b>, M + (x-2)(1905) - 1212x = 0 -> <b>M = -692.8x + 3811 N-cm</b>
+
+5) M_max occurs at <b>x=2 cm</b>, with a magnitude of <b>2424 N-cm</b>
 
 
 ---
