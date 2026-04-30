@@ -63,7 +63,7 @@ L1 at minimum must be 1.7cm long if we want to keep the angle between the handle
 
 F nut = 2200N
 
-F actuator = 8000N
+F actuator = 800N
 
 ∑MA = 0 = -L1 * F nut + L2 * F actuator
 
@@ -87,6 +87,15 @@ Assumptions:
 - Handle material is isotropic
 
 Analysis:
+
+1) Draw overall FBD
+
+2) Calculate transverse loads and reactions
+- Actuator_y = F_Actuator * cos(π/6) = 800 * cos(π/6) = 692.8 N
+- Nut_y = F_Nut * cos(π/6) = 1905 N
+- ∑F = 0 = R_y + F_Actuator - F_Nut -> R_y = 1212 N
+
+3) Slice FBD into smaller sections, 0<x<2 and 2<x<5.5 cm
 
 
 ---
