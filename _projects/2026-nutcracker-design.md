@@ -154,6 +154,6 @@ Schrauf et al. Do capuchin monkeys use weight to select hammer tools, Anim Cogn 
 
 Tomkinson et al. (2024). International norms for adult handgrip strength: A systematic review of data on 2.4 million adults aged 20 to 100+ years from 69 countries and regions. Journal of Sport and Health Science/Journal of Sport and Health Science, 14, 101014. https://doi.org/10.1016/j.jshs.2024.101014
 
-Wilson. (2026, April 8). Elastic modulus of aluminum. Ya Ji Aluminum | Extrusion Manufacturer. https://yajialuminum.com/elastic-modulus-of-aluminum/
+Wilson. (2026, April 8). Elastic modulus of aluminum. Ya Ji Aluminum. Extrusion Manufacturer. https://yajialuminum.com/elastic-modulus-of-aluminum/
 
 World Macadamia Organisation. (2024, October 17). Macadamia Style Guide, World Macadamia Organisation. (https://www.worldmacadamia.com/style-guide/)
