@@ -144,7 +144,7 @@ Analysis:
 - I = th^3/12 + bt^3/6 + bt/2 * (h+t)^2
 - I ≥ 5.436 / (69 * 10^9) = 7.88 * 10^-11 m^4
 - Choose <b>t = 1mm</b> and <b>b = 4mm</b>, which should be thick enough to withstand daily wear-and-tear
-- This leaves <b>h = 4.8m</b> to meet the required I value
+- This leaves <b>h = 4.8mm</b> to meet the required I value
 
 ---
 
