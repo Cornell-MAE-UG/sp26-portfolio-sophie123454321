@@ -136,11 +136,11 @@ Analysis:
 2) y_max = -5980 / EI ≤ 0.11 cm
 - <b>E*I ≥ 5.436 N-m^2</b>
 
-3) Aluminum is used for the handles, as it has a decently high elastic modulus of <b>E = 69 GPa</b> for its light weight.
+3) <b>Aluminum</b> is used for the handles, as it has a decently high elastic modulus of E = 69 GPa for its light weight.
 
 ![Nutcracker cross section diagram]({{ "/assets/images/nutcracker-cross-section.png" | relative_url }}){: .inline-image-r style="width: 400px"}
 
-4) An I-beam design is used to achieve a mass-efficient design, as the goal is to resist bending by placing material as far from the neutral axis as possible.
+4) An <b>I-beam design</b> is used to achieve a mass-efficient design, as the goal is to resist bending by placing material as far from the neutral axis as possible.
 - I = th^3/12 + bt^3/6 + bt/2 * (h+t)^2
 - I ≥ 5.436 / (69 * 10^9) = 7.88 * 10^-11 m^4
 - Choose <b>t = 1mm</b> and <b>b = 4mm</b>, which should be thick enough to withstand daily wear-and-tear
