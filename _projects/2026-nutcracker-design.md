@@ -97,11 +97,21 @@ Analysis:
 
 3) Slice FBD into smaller sections, 0<x<2 and 2<x<5.5 cm
 
-4) Calculate internal V, M at those slices
-- At 0<x<2 cm: 1212 N - V = 0 -> <b>V = 1212 N</b>, -1212x + M = 0 -> <b>M = 1212x N-cm</b>
-- At 2<x<5.5 cm: -V + 1212 - 1905 = 0 -> <b>V = -692.8 N</b>, M + (x-2)(1905) - 1212x = 0 -> <b>M = -692.8x + 3811 N-cm</b>
+4) Calculate internal V, M at 0<x<2 cm, then calculate y_1(x)
+- 1212 N - V = 0 -> <b>V = 1212 N</b>, -1212x + M = 0 -> <b>M = 1212x N-cm</b>
+- EIy'' = M(x)dx
+- Integrate twice to get EIy_1 = 202.1x^3 + Ax + B
 
-5) M_max occurs at <b>x=2 cm</b>, with a magnitude of <b>2424 N-cm</b>
+5) Calculate internal V, M at 2<x<5.5, then calculate y_2(x)
+- -V + 1212 - 1905 = 0 -> <b>V = -692.8 N</b>, M + (x-2)(1905) - 1212x = 0 -> <b>M = -692.8x + 3811 N-cm</b>
+- Integrate twice to get EIy_2 = -115.5x^3 + 1905x^2 + Cx + D
+
+6) Use boundary conditions y_1(0) = 0, y_2(5.5) = 0, y_1(2) = y_2(2), y_1'(2) = y_2'(2) to solve for constants A, B, C, D
+
+Final answers for y(x):
+
+<b>EIy_1(x) = 202.1x^3 - 3637x</b>, 0<x<2 cm
+<b>EIy_2(x) = -115.5x^3 + 1905x^2 - 7448x + 2540</b>, 2<x<5.5 cm
 
 
 ---
