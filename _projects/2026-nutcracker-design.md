@@ -90,6 +90,8 @@ Analysis:
 
 1) Draw overall FBD
 
+![Nutcracker beam FBD]({{ "/assets/images/nutcracker-beam-FBD.png" | relative_url }}){: .inline-image-r style="width: 400px"}
+
 2) Calculate transverse loads and reactions
 - Actuator_y = F_Actuator * cos(π/6) = 800 * cos(π/6) = <b>692.8 N</b>
 - Nut_y = F_Nut * cos(π/6) = <b>1905 N</b>
