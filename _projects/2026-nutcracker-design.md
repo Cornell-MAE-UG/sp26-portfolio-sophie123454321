@@ -127,7 +127,7 @@ Final answers for y(x):
 
 ## Handle Cross-Section and Material Design
 
-Problem: Choose a cross-section design and material such that the vertical elastic deflection is less than 2% of the beam's length, and is as mass-efficient as possible.
+Problem: Choose a mass-efficient cross-section design and material such that the vertical elastic deflection is less than 2% of the beam's length.
 
 Analysis:
 
@@ -143,9 +143,8 @@ Analysis:
 4) An I-beam design is used to achieve a mass-efficient design, as the goal is to resist bending by placing material as far from the neutral axis as possible.
 - I = th^3/12 + bt^3/6 + bt/2 * (h+t)^2
 - I ≥ 5.436 / (69 * 10^9) = 7.88 * 10^-11 m^4
-- 
-
-
+- Choose <b>t = 1mm</b> and <b>b = 4mm</b>, which should be thick enough to withstand daily wear-and-tear
+- This leaves <b>h = 4.8m</b> to meet the required I value
 
 ---
 
