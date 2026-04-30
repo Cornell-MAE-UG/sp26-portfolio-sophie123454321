@@ -113,6 +113,9 @@ Final answers for y(x):
 <b>EIy_1(x) = 202.1x^3 - 3637x</b>, 0<x<2 cm
 <b>EIy_2(x) = -115.5x^3 + 1905x^2 - 7448x + 2540</b>, 2<x<5.5 cm
 
+7) The maximum deflection occurs at <b>x = 2.54 cm</b>
+- At this point EI*y_2(2.54) = -5972 N-cm^3
+
 
 ---
 
